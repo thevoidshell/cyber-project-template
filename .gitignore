@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Logs
+*.log
+logs/
+
+# Security files
+*.pem
+*.key
+*.crt
+
+# Packet captures
+*.pcap
+*.cap
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
