@@ -23,7 +23,7 @@ Add architecture diagram here.
 ```
 
 ## Usage
-# example commands
+example commands
 
 ## Security Considerations
 Document security decisions, hardening measures, and limitations.
